@@ -1,3 +1,4 @@
+// Fitting an exponential profile to the pixelized density
 data
 {
 	int N;

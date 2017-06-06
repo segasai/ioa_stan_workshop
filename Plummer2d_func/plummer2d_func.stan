@@ -1,3 +1,6 @@
+// Fitting a Plummer distribution to the data
+// by creating a new PDF
+
 functions {
 	// create a new function  for the PDF of the distribution that we are interested in 
 	// In this case the distribution is the plummer distribution
@@ -23,7 +26,6 @@ data
 	int N;
 	vector[2] xy[N];
 	matrix[2,2] covars[N];
-
 }
 parameters
 {

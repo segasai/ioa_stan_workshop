@@ -1,3 +1,5 @@
+// Fitting the Plummer model 1/(1+(r/r0)^2)^2 to the distribution of sources
+
 data
 {
 	// Number of datapoints	

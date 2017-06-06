@@ -1,3 +1,4 @@
+// Fitting a 2d plummer model
 data
 {
 	// number of datapoints 

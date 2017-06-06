@@ -1,4 +1,4 @@
-// fitting lin regression with outliers
+// fitting linear regression with outliers
 // the outliers are modeled as another distribution
 data {
   // number of data points

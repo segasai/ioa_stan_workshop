@@ -1,3 +1,5 @@
+// fitting a Gaussian Mixture model to the distribution of objects
+// Written for the ADVI
 data{
 	int<lower=0> N;
 	// number of datapoints in entire dataset
@@ -12,7 +14,7 @@ data{
 transformed data{
 	vector<lower=0>[K] alpha0_vec;
 	for(k in 1:K)
-	{
+	{e
 		alpha0_vec[k] = alpha0;
 	}
 }

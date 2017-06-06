@@ -2,7 +2,6 @@
 // Plummer 1/(1+r^2)^2 model where the position of each stars
 // is measured with the uncertainty
 
-
 data
 {
 	// number of datapoints	
