@@ -1,3 +1,11 @@
+# Overview
+
+This project stores many examples of astrophysically motivated models. In each folder there is a gendata.py that was used to generate the datasets. 
+Some projects have ipython notebooks in them. 
+The input data is always stored in two ways (.R format and python pickle format)
+
+The slides are stored in stan_talk,pdf
+
 # CmdStan
 
 Download it here https://github.com/stan-dev/cmdstan/releases/download/v2.15.0/cmdstan-2.15.0.tar.gz
@@ -120,7 +128,7 @@ Now data is the dictionary with input data
 
 ## Fitting
 
-`
+```
 res= mod.sampling(data=data)
 res= mod.optimize(data=data)
-`
+```
