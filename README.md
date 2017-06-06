@@ -128,7 +128,7 @@ Now data is the dictionary with input data
 
 ## Fitting
 
-`
+```
 res= mod.sampling(data=data)
 res= mod.optimize(data=data)
-`
+```
